@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.774">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testForgotPasswordLink"
+                time="0.623"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testIncorrectEmail"
+                time="1.304"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testEmptyCredentials"
+                time="0.348"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testSigninDiscord"
+                time="3.667"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testEmptyEmail"
+                time="0.346"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testLoginSucessful"
+                time="2.448"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testIncorrectCredentials"
+                time="1.640"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testSignupLink"
+                time="0.683"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testIncorrectPassword"
+                time="1.630"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testEmptyPassword"
+                time="0.746"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testInvalidEmail"
+                time="1.339"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+</testsuite>

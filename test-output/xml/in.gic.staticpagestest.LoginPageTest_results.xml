@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="21"
+           failures="2"
+           errors="0"
+           skipped="13"
+           time="24.130">
+    <properties></properties>
+
+            <testcase
+                name="getResult"
+                time="0.647"
+                classname="in.gic.staticpagestest.LoginPageTest">
+
+            <failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.119)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c3edab9afe52914af42d00c39a5eae5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55769/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c3edab9afe52914af42d00c39a5eae5">
+                <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.119)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c3edab9afe52914af42d00c39a5eae5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55769/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c3edab9afe52914af42d00c39a5eae5
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)in.gic.qa.commontest.BaseTest.captureScreenshot(BaseTest.java:81)in.gic.qa.commontest.BaseTest.getResult(BaseTest.java:100)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="testIncorrectPassword"
+                time="16.590"
+                classname="in.gic.staticpagestest.LoginPageTest">
+
+            <failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.119)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c3edab9afe52914af42d00c39a5eae5, findElement {value=//li[contains(text(),&apos;Please enter a correct username and password.&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55769/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c3edab9afe52914af42d00c39a5eae5">
+                <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.119)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c3edab9afe52914af42d00c39a5eae5, findElement {value=//li[contains(text(),'Please enter a correct username and password.')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\TANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55769/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c3edab9afe52914af42d00c39a5eae5
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)jdk.proxy2/jdk.proxy2.$Proxy19.toString(Unknown Source)java.base/java.lang.String.valueOf(String.java:4465)org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)java.base/java.lang.String.valueOf(String.java:4465)org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)in.gic.qa.common.Base.waitUntilVisibilityOf(Base.java:25)in.gic.staticpages.LoginPage.testEmptyCredentials(LoginPage.java:114)in.gic.staticpagestest.LoginPageTest.testIncorrectPassword(LoginPageTest.java:97)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="getResult"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="getResult"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="getResult"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="beforeTestmethod"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="beforeTestmethod"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="closeBrowser"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="beforeTestmethod"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="getResult"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="beforeTestmethod"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testSignupLink"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testSigninDiscord"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testLoginSucessful"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testInvalidEmail"
+                time="0.0"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+
+            <testcase
+                name="testForgotPasswordLink"
+                time="1.069"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testEmptyEmail"
+                time="1.360"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testIncorrectEmail"
+                time="1.160"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testIncorrectCredentials"
+                time="1.041"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testEmptyPassword"
+                time="0.925"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+            <testcase
+                name="testEmptyCredentials"
+                time="1.338"
+                classname="in.gic.staticpagestest.LoginPageTest">
+            </testcase>
+</testsuite>

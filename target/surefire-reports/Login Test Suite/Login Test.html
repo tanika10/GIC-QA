@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>TestNG:  Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 06 11:18:38 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21982 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testForgotPasswordLink()'><b>testForgotPasswordLink</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br/>
+<a href="#Output-1749009694" onClick='toggleBox("Output-1749009694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1749009694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1749009694">
+===== TEST FORGOT PASSWORD LINK =====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testIncorrectEmail()'><b>testIncorrectEmail</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br>Parameters: Test123#<br/>
+<a href="#Output-1441207253" onClick='toggleBox("Output-1441207253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1441207253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1441207253">
+===== TEST INCORRECT EMAIL =====<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testEmptyCredentials()'><b>testEmptyCredentials</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br/>
+<a href="#Output-1762854320" onClick='toggleBox("Output-1762854320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1762854320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1762854320">
+===== TEST EMPTY CREDENTIALS =====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testSigninDiscord()'><b>testSigninDiscord</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br/>
+<a href="#Output-1807243037" onClick='toggleBox("Output-1807243037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1807243037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1807243037">
+===== TEST SIGN IN WITH DISCORD =====<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testEmptyEmail()'><b>testEmptyEmail</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br>Parameters: Test123#<br/>
+<a href="#Output-1967776526" onClick='toggleBox("Output-1967776526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1967776526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1967776526">
+===== TEST EMPTY EMAIL =====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testLoginSucessful()'><b>testLoginSucessful</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br>Parameters: tanikaagautam@gmail.com, Test123#<br/>
+<a href="#Output-787158211" onClick='toggleBox("Output-787158211", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-787158211" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-787158211">
+===== TEST LOGIN SUCCESSFUL =====<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testIncorrectCredentials()'><b>testIncorrectCredentials</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br/>
+<a href="#Output-1356235069" onClick='toggleBox("Output-1356235069", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1356235069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1356235069">
+===== TEST INCORRECT EMAIL & PASSWORD =====<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testSignupLink()'><b>testSignupLink</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br/>
+<a href="#Output-1740249046" onClick='toggleBox("Output-1740249046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1740249046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1740249046">
+===== TEST SIGN UP LINK =====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testIncorrectPassword()'><b>testIncorrectPassword</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br>Parameters: tanikaagautam@gmail.com<br/>
+<a href="#Output-727356615" onClick='toggleBox("Output-727356615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727356615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727356615">
+===== TEST INCORRECT PASSWORD =====<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testEmptyPassword()'><b>testEmptyPassword</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br>Parameters: tanikaagautam@gmail.com<br/>
+<a href="#Output-1838699574" onClick='toggleBox("Output-1838699574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1838699574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1838699574">
+===== TEST EMPTY PASSWORD =====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+<tr>
+<td title='in.gic.staticpagestest.LoginPageTest.testInvalidEmail()'><b>testInvalidEmail</b><br>Test class: in.gic.staticpagestest.LoginPageTest<br>Parameters: Test123#<br/>
+<a href="#Output-715388428" onClick='toggleBox("Output-715388428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-715388428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-715388428">
+===== TEST INVALID EMAIL =====<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>in.gic.staticpagestest.LoginPageTest@58ff8d79</td></tr>
+</table><p>
+</body>
+</html>
